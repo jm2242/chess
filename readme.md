@@ -1,2 +1,2 @@
 # Chess
-Built in Python
+Chess built from scratch. Built in Python 3.
