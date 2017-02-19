@@ -2,7 +2,7 @@ from enum import Enum
 
 class PieceType(Enum):
     PAWN = "P"
-    KNIGHT = "K"
+    KNIGHT = "N"
     BISHOP = "B"
     ROOK = "R"
     QUEEN = "Q"
@@ -15,7 +15,7 @@ class Piece:
         self.player = player
 
     def __str__(self):
-        return (self.piece_type.name[0] + str(self.player))
+        return (self.piece_type.value + str(self.player))
 
     def __repr__(self):
-        return (self.piece_type.name[0] + str(self.player))
+        return (self.piece_type.value + str(self.player))
